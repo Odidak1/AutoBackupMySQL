@@ -78,5 +78,4 @@ else
            }" \
        "$WEBHOOK_URL"
 fi
-
 rm -r "$TEMP_DIR"
