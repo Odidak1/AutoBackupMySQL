@@ -29,6 +29,10 @@ BackupMySQL adalah skrip bash yang digunakan untuk membackup database MySQL/Mari
    ```bash
    curl https://rclone.org/install.sh | sudo bash
    ```
+   Configurasi rclone menggunakan perintah berikut:
+   ```bash
+rclone config
+   ```
 
 ### 4. **Ubah Konfigurasi Skrip**
    Buka file `BackupMySQL.sh` menggunakan text editor (seperti `nano` atau `vim`) dan sesuaikan pengaturan berikut:
