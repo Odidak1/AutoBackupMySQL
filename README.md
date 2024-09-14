@@ -21,11 +21,14 @@ BackupMySQL adalah skrip bash yang digunakan untuk membackup database MySQL/Mari
 ### 2. **Instalasi Dependensi**
    Instal dependensi yang dibutuhkan oleh skrip ini dengan menjalankan perintah berikut:
    ```bash
-   sudo apt-get install curl rclone mysql-client
+   sudo apt-get install curl mysql-client
    ```
 
-### 3. **Setup Rclone**
-   Konfigurasikan rclone di server/VPS Anda. Ikuti panduan [rclone configuration](https://rclone.org/docs/) untuk menyiapkan remote dengan nama yang sesuai dengan konfigurasi.
+### 3. **Install & Setup Rclone**
+   Instal rclone menggunakan perintah berikut:
+   ```bash
+   curl https://rclone.org/install.sh | sudo bash
+   ```
 
 ### 4. **Ubah Konfigurasi Skrip**
    Buka file `BackupMySQL.sh` menggunakan text editor (seperti `nano` atau `vim`) dan sesuaikan pengaturan berikut:
