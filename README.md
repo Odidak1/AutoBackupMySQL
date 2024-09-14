@@ -1,6 +1,6 @@
 # BackupMySQL V1.3
 
-BackupMySQL adalah skrip bash yang digunakan untuk membackup database MySQL dan mengunggah hasil backup ke Google Drive menggunakan [Rclone](https://rclone.org/). Skrip ini juga dapat mengirimkan notifikasi status backup ke Discord melalui webhook.
+BackupMySQL adalah skrip bash yang digunakan untuk membackup database MySQL/MariaDB dan mengunggah hasil backup ke Google Drive menggunakan [Rclone](https://rclone.org/). Skrip ini juga dapat mengirimkan notifikasi status backup ke Discord melalui webhook.
 
 ## Fitur:
 - Backup database MySQL ke file SQL.
