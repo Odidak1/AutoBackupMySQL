@@ -29,10 +29,13 @@ BackupMySQL adalah skrip bash yang digunakan untuk membackup database MySQL/Mari
    ```bash
    curl https://rclone.org/install.sh | sudo bash
    ```
-   Configurasi rclone menggunakan perintah berikut:
+
+   Setelah itu, konfigurasikan rclone dengan menjalankan:
    ```bash
-rclone config
+   rclone config
    ```
+
+   Ikuti langkah-langkah konfigurasi yang ditunjukkan di layar untuk menghubungkan Google Drive Anda ke rclone.
 
 ### 4. **Ubah Konfigurasi Skrip**
    Buka file `BackupMySQL.sh` menggunakan text editor (seperti `nano` atau `vim`) dan sesuaikan pengaturan berikut:
